@@ -1,7 +1,7 @@
-TITLE Number Accumulator     (Program3.asm)
+TITLE Number Accumulator     (accumulator.asm)
 
-; Author: Andrew Swaim			swaima@oregonstate.edu
-; CS271-400		Program #3      2/11/2018
+; Author: Andrew Swaim
+; Date: 2/11/2018
 ; Description: Prompts the user to enter numbers from -100 to -1 and displays the
 ;			number of negative numbers entered, the sum of the negative numbers, and the
 ;			rounded average of the numbers.
