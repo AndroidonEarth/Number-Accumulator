@@ -12,7 +12,6 @@ LOWER_LIMIT = -100
 
 .data
 program		BYTE	"Welcome to the Integer Accumulator by Andrew Swaim",0
-ecNote		BYTE	"**:EC: Lines are numbered during user input!",0
 prompt1		BYTE	"What is your name? ",0
 userName	BYTE	21 DUP (0)
 greeting	BYTE	"Hello, ",0
@@ -38,10 +37,6 @@ average		SDWORD	?
 main PROC
 ;Display program and author name
 	mov		edx,OFFSET program
-	call	WriteString
-	call	Crlf
-;Indicate extra credit
-	mov		edx,OFFSET ecNote
 	call	WriteString
 	call	Crlf
 	call	Crlf
